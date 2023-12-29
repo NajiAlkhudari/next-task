@@ -1,0 +1,41 @@
+
+.card.title {
+    @apply font-bold text-xl mb-2
+  }
+.custom-title {
+  color: #0E1E3C;
+  font-family: 'Inter';
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0;
+  text-align: left;
+  white-space: nowrap; // Prevent wrapping to ensure "Luminous" is in one line
+}
+
+.custom-title::after {
+  content: '';
+  display: block;
+  margin-top: 0.5em;
+  white-space: pre; // Preserve newlines to ensure "GPTTEX 240 AH" is on a new line
+}
+
+  
+  .card.subtitle {
+      @apply text-white text-base
+  }
+  
+  .card.subtitle2 {
+    @apply text-black text-base 
+  }
+
+
+
+  .custom-box {
+    width: 828px;
+    height: 543px;
+    padding: 36px;
+    border-radius: 24px;
+    gap: 20px;
+    color: #FFFFFF;
+  }

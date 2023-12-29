@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import '-all.scss';
+@import '-paragraphone.scss';
+@import '-card.scss';
+@import '-button.scss';
+@import '-list.scss';
+@import '-title.scss';
+
+@import '-category.scss';
+@import '-price.scss';
+@import '-additional.scss';
